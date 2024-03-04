@@ -1,0 +1,429 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/*FONT */
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.barlow-condensed-medium {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.barlow-condensed-semibold {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+
+
+
+
+.header {
+    background-color: #FEEFE8;
+    height: 100px;
+    padding: 45px;
+}
+
+header {
+    background-color: #FEEFE8;
+    height: 10vh;
+    padding: 10%;
+    font-family: "Montserrat";
+}
+
+
+body {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: #FEEFE8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #FEEFE8;
+    color: #5a553f;
+    width: 100%;
+}
+
+main h1,
+h2 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "barlow condensed";
+    font-weight: 600;
+}
+
+b {
+    font-family: "barlow condensed";
+    font-weight: 600;
+}
+
+h4 {
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+p {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+/*FORM*/
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+.form_wrapper {
+    margin: 2rem auto;
+}
+
+.form_wrapper {
+    width: 50%;
+}
+
+.form_wrapper div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.form_wrapper input,
+.form_wrapper select {
+    width: 50%;
+    border-color: #FEEFE8;
+}
+
+
+
+.form_wrapper label {
+    padding: 7px;
+    line-height: 2.2;
+    width: 500px;
+}
+
+.form_wrapper textarea {
+    width: 100%;
+    border-color: #FEEFE8;
+}
+
+.form_wrapper .align_column {
+    flex-direction: column;
+}
+
+.form_wrapper input[type="submit"] {
+    margin-left: 75%;
+    width: 150px;
+    border: 2px solid #EBB26B;
+    border-radius: 25px;
+    background-color: #EBB26B;
+    color: #FEEFE8;
+}
+
+.form_wrapper [type="submit"]:hover {
+    background-color: #FEEFE8;
+    color: #EBB26B;
+    border: 2px solid #EBB26B;
+}
+
+/*FINE FORM*/
+
+
+
+/*NOTIZIE*/
+
+h4 {
+    font-size: 20px;
+}
+
+
+article a:hover {
+    color: black;
+}
+
+article {
+    margin-right: 10px;
+}
+
+.articles_wrapper {
+    display: flex;
+    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.articles article {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.articles img {
+    width: 400px;
+    height: 196px;
+}
+
+
+/*FINE NOTIZIE*/
+
+/*MENU*/
+
+
+a {
+    color: #5a553f;
+    text-decoration: none;
+    transition: color 1s;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #222222;
+    ;
+}
+
+article p {
+    width: 400px;
+}
+
+#logo {
+    margin-right: 15px;
+}
+
+.top_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top_menu img {
+    height: 100px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#menu li {
+    display: inline;
+    padding: 4px 8px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#menu a {
+    color: #5a553f;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+#menu a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+/*MENU*/
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #FEEFE8;
+    margin-top: 0;
+    color: #5a553f;
+    font-family: arial;
+    
+}
+
+
+footer a {
+    font-size: 20px;
+}
+
+.foot {
+    width: 25%;
+}
+
+#left {
+    margin-left: 10px;
+}
+
+#right ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#coopri li {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+#left img {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#left h3 {
+    text-align: left;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+#fin {
+    height: 200px;
+    width: 320px;
+    margin-left: 25px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+footer li {
+    list-style: none;
+}
+
+
+.social {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+
+#left2 ul,
+#right2 ul {
+    margin-top: 39%;
+}

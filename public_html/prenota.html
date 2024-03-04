@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+
+    <title>Prima Pagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style/css.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top_menu">
+            <div id="logo">
+                <img src="/template/images/volpe.jpg" alt="volpe">
+            </div>
+
+            <div id="menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/prenota.html">ORDER ONLINE</a></li>
+                        <li><a href="/about">ABOUT</a></li>
+                        <li><a href="/news">NEWS</a></li>
+                        <li><a href="/contact">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="prenota">
+
+        <h1>FRIULAND</h1>
+        <h2>IL PARCO DIVERTIMENTO DELLE PANNOCCHIE</h2>
+
+        <div class="form_wrapper">
+            <form>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" type="text" required />
+                </div>
+
+                <div>
+                    <label for="cognome">Cognome</label>
+                    <input id="cognome" name="cognome" type="text" required />
+                </div>
+
+                <div>
+                    <label for="data">Data di prenotazione</label>
+                    <input id="data" name="data" type="date" required />
+                </div>
+
+                <div>
+                    <label for="num_adulti">Adulti</label>
+                    <select id="num_adulti" name="num_adulti">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="num_ridotti">Ridotti</label>
+                    <select id="num_ridotti" name="num_ridotti">
+                        <option value="0">Nessun ridotto</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div class="align_column">
+                    <textarea name="note" id="note" cols="25" rows="5"
+                        placeholder="Descrivi la tua richiesta"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Invia richiesta" />
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+
+</body>
+<footer>
+
+    <div id="left" class="foot">
+        <img src="/template/images/volpe.jpg" alt="volpe">
+        <br>
+        <h3>FRIULAND</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum fugit rerum praesentium quos vero aut nulla
+            voluptate unde, repellendus cupiditate ab! Doloremque accusantium, inventore mollitia nobis sint molestias
+            reiciendis labore.
+        </p>
+        <a href="mailto:friuland@gmail.com">
+            <p>friuland@gmail.com</p>
+        </a>
+        <p>via prasecco 35, Pordenone 33170</p>
+    </div>
+
+    <div id="left2" class="foot">
+        <h3 style="text-align: center">MENU PAGINE </h3>
+        <ul>
+            <li><a href="/contatti.html">contatti</a></li>
+            <li><a href="/servizi.html">servizi</a></li>
+            <li><a href="/dovesiamo.html">dove siamo</a></li>
+        </ul>
+    </div>
+
+    <div id="right2" class="foot">
+        <h3 style="text-align: center">MENU LEGALE </h3>
+        <ul>
+            <li><a href="/termini.html">termini</a></li>
+            <li><a href="/privacy.html">privacy</a></li>
+            <li><a href="/reclami.html">reclami</a></li>
+        </ul>
+    </div>
+
+    <div id="right" class="foot">
+        
+        <a href="https://facebook.com"><img src="/template/images/facebook.png" class="social" alt="facebook"> </a>
+        <a href="https://twitter.com"><img src="/template/images/twitter.png" class="social" alt="twitter"> </a>
+        <a href="https://instagram.com"><img src="/template/images/insta.png" class="social" alt="instagram"> </a>
+   
+    <br>
+    <img src="/template/images/finanziamento.jpeg" id="fin" alt="finanziamento">
+    <br>
+    <div id="coopri">
+        <ul>
+            <li><a href="/cookies.html">cookie policy</a> </li>
+            <li><a href="/privacy.html">privacy policy</a></li>
+        </ul>
+    </div>
+    </div>
+
+</footer>
+
+</html>
